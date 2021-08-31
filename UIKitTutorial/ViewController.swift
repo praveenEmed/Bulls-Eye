@@ -56,6 +56,27 @@ class ViewController: UIViewController {
         }
 
     }
+    
+//    @IBAction func knock(){
+//
+//        //Creating the alert
+//        let alert = UIAlertController(title: "Knocking me ?", message: "What do you want me to do", preferredStyle: .alert)
+//
+//        //Ceating buttons to the Alert
+//        let ok = UIAlertAction(title: "Ok", style: .default) { _ in
+//            print("Okay i'm here")
+//        }
+//        let cancel = UIAlertAction(title: "Cancel", style: .cancel) { _ in
+//            print("Cancled the Knoking")
+//        }
+//
+//        //Adding buttons to Alert
+//        alert.addAction(ok)
+//        alert.addAction(cancel)
+//
+//        //Presenting the Alert to user
+//        present(alert, animated: true, completion: nil)
+//    }
 
 
 }
